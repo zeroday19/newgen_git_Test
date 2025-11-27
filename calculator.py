@@ -1,5 +1,3 @@
-import numpy
-
 
 # takes 2 positional arguments but 3 were given
 class Calculator:
@@ -19,3 +17,4 @@ class Calculator:
 
     def expoent(self, n, m):
         return n**m
+
