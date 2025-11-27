@@ -2,7 +2,7 @@
 # takes 2 positional arguments but 3 were given
 class Calculator:
     def add(self, n, m, key=10):
-        return n + (m+1)
+        return n + m
 
     def substract(self, n, m):
         return n - m
@@ -17,5 +17,6 @@ class Calculator:
 
     def expoent(self, n, m):
         return n**m
+
 
 
